@@ -6,7 +6,8 @@
     "dev": "next dev --port 6789",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "push": "npm version minor -m \"chore(%s): New release %s\" && git push origin main --follow-tags"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.3",
